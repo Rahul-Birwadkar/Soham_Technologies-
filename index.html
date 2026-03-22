@@ -1,0 +1,1723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOHAM Technologies | Industrial Electronics Repair Mumbai</title>
+  <meta name="description" content="SOHAM Technologies Mumbai — Expert repair of Servo Drives, VFDs, PCBs, PLCs, HMIs, CNC Controllers, Elevator Drives. Est. 2014. Free diagnosis. +91 80460 79676." />
+  <meta name="keywords" content="servo drive repair Mumbai, PCB repair Mumbai, VFD repair, PLC HMI repair, CNC controller repair, elevator drive repair, industrial electronics Mumbai" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sohamtechnologies.in/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SOHAM Technologies | Industrial Electronics Repair Mumbai" />
+  <meta property="og:description" content="Expert component-level repair — Servo, VFD, PCB, PLC, HMI, CNC. Est. 2014. Free diagnosis." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sohamtechnologies.in/" />
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "SOHAM Technologies",
+    "description": "Industrial electronics repair — Servo Drives, VFDs, PCBs, PLCs, HMIs, CNC Controllers",
+    "url": "https://sohamtechnologies.in",
+    "telephone": "+918046079676",
+    "email": "sohamtechnologiesmumbai@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Floor-1, 0-111, 42B, Hanuman Industrial Estate, G D Ambekar Marg",
+      "addressLocality": "Mumbai",
+      "addressRegion": "Maharashtra",
+      "postalCode": "400031",
+      "addressCountry": "IN"
+    },
+    "openingHours": ["Mo-Fr 09:00-18:00", "Sa 09:00-16:00"],
+    "founder": { "@type": "Person", "name": "Gajanan Pandurang Kasar" },
+    "foundingDate": "2014"
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Mobile Nav -->
+<div class="mob-nav" id="mobNav">
+  <button class="mob-close" onclick="closeMob()" aria-label="Close menu">&times;</button>
+  <a onclick="go('home');closeMob()">Home</a>
+  <a onclick="go('services');closeMob()">Services</a>
+  <a onclick="go('about');closeMob()">About</a>
+  <a onclick="go('gallery');closeMob()">Gallery</a>
+  <a onclick="go('faq');closeMob()">FAQ</a>
+  <a onclick="go('contact');closeMob()">Get a Quote</a>
+</div>
+
+<!-- Floating Buttons -->
+<div class="float-stack" role="complementary" aria-label="Quick contact">
+  <button class="fbtn fbtn-chat" onclick="toggleChat()" title="AI Chat Assistant" aria-label="Open chat">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8">
+      <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+    </svg>
+  </button>
+  <a href="https://wa.me/918046079676?text=Hello+SOHAM+Technologies%2C+I+need+help+with+industrial+repair." target="_blank" rel="noopener" class="fbtn fbtn-wa" title="WhatsApp" aria-label="WhatsApp">
+    <div class="wa-ring"></div>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+  <a href="tel:+918046079676" class="fbtn fbtn-call" title="Call Now" aria-label="Call">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8">
+      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.19 1.19 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+    </svg>
+  </a>
+</div>
+
+<!-- AI Chat Window -->
+<div class="chat-win" id="chatWin" role="dialog" aria-label="SOHAM AI Assistant">
+  <div class="chat-head">
+    <div class="chat-av">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="8" r="4"/><path d="M3 20c0-4 4-7 9-7s9 3 9 7"/>
+      </svg>
+    </div>
+    <div class="chat-info">
+      <h4>SOHAM Assistant <span class="ai-badge">AI</span></h4>
+      <p><span class="chat-online"></span>Online now &mdash; Claude powered</p>
+    </div>
+    <button class="chat-close" onclick="toggleChat()" aria-label="Close">&times;</button>
+  </div>
+  <div class="chat-msgs" id="chatMsgs">
+    <div class="msg bot">Welcome to SOHAM Technologies!
+
+I can help you with service information, pricing, or getting a repair quote. What can I assist you with today?</div>
+  </div>
+  <div class="chat-opts" id="chatOpts">
+    <button class="chat-opt" onclick="quickQuestion('What servo drive repair services do you offer and what is the pricing?')">Servo / Drive</button>
+    <button class="chat-opt" onclick="quickQuestion('Tell me about VFD and drive repair services')">VFD Repair</button>
+    <button class="chat-opt" onclick="quickQuestion('PCB repair services — what can you fix?')">PCB Repair</button>
+    <button class="chat-opt" onclick="quickQuestion('PLC and HMI repair — which brands do you service?')">PLC / HMI</button>
+    <button class="chat-opt" onclick="quickQuestion('What is the cost, turnaround time and warranty?')">Pricing</button>
+    <button class="chat-opt" onclick="quickQuestion('What is your workshop address and working hours?')">Location</button>
+  </div>
+  <div class="chat-input-row">
+    <input class="chat-input" id="chatInput" type="text" placeholder="Type your question&hellip;" aria-label="Chat input" />
+    <button class="chat-send" onclick="sendChat()" aria-label="Send">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+        <line x1="22" y1="2" x2="11" y2="13"/>
+        <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<!-- Sticky Bar -->
+<div class="sticky-bar" id="stickyBar" role="banner">
+  <p><strong>Equipment Down?</strong> &nbsp;Mumbai&rsquo;s most trusted industrial repair &mdash; Free Diagnosis</p>
+  <div class="sticky-btns">
+    <a href="https://wa.me/918046079676" target="_blank" rel="noopener" class="stickybtn" style="background:var(--green);color:#fff">WhatsApp</a>
+    <button class="stickybtn" style="background:var(--red);color:#fff" onclick="go('contact')">Get Quote</button>
+  </div>
+</div>
+
+<!-- Announce Bar -->
+<div class="abar" id="announceBar">
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+  </svg>
+  Free diagnosis for first-time customers &mdash;
+  <a onclick="go('contact')" style="cursor:pointer">Book now &rarr;</a>
+  <button class="abar-x" onclick="document.getElementById('announceBar').style.display='none'" aria-label="Close">&times;</button>
+</div>
+
+<!-- Topbar -->
+<div class="topbar">
+  <div class="tb-left">
+    <span class="tb-item">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.19 1.19 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+      </svg>
+      <a href="tel:+918046079676">+91 80460 79676</a>
+    </span>
+    <span class="tb-sep">|</span>
+    <span class="tb-item">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+        <polyline points="22,6 12,13 2,6"/>
+      </svg>
+      <a href="mailto:sohamtechnologiesmumbai@gmail.com">sohamtechnologiesmumbai@gmail.com</a>
+    </span>
+    <span class="tb-sep">|</span>
+    <span class="tb-item">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+      </svg>
+      Hanuman Industrial Estate, Mumbai 400031
+    </span>
+  </div>
+  <div class="tb-right">
+    <span class="tb-item">Mon&ndash;Fri 9AM&ndash;6PM &nbsp;&middot;&nbsp; Sat 9AM&ndash;4PM</span>
+  </div>
+</div>
+
+<!-- Main Nav -->
+<nav role="navigation" aria-label="Main navigation">
+  <div class="logo" onclick="go('home')" role="button" tabindex="0" aria-label="SOHAM Technologies Home">
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAd
+Hx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3
+Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAb8BvwMBIgACEQED
+EQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABgcBBQgEAwL/xABSEAABAwMBAgYKDwYEBgMAAwAAAQID
+BAURBgchEhMxQVHRFBY3VGFxgZKhshUXIjI2UlVzdJGTorGz0iMzQnKDwTVi4fEkNEOCwvAlJlMn
+Y2T/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAQIDBAUG/8QALxEBAAICAQIFAwMEAgMAAAAAAAECAxEE
+ElEFFCExQRMVIjJSYSMzcfBCsSQ0gf/aAAwDAQACEQMRAD8AvEAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8SyMiY573I1rUy5VXCIgH7
+BUOtdsENFNLRaZiZUSNXElXL+7av+VP4vHyFduu+ttTPdLDPdKpFXOIEc1ieLAHUOU6RlOlDl/2D
+14vJSXryyO/UPYHXvel58936gOoMp0oMp0ocv+wOve9Lz57v1D2B173pefPd+oDqDKdKDKdKHL/s
+Dr3vS8+e79Q9gde96Xnz3fqA6gynSgynShy/7A6970vPnu/UPYHXvel58936gOoMp0oMp0ocv+wO
+ve9Lz57v1D2B173pefPd+oDqDKdKDKdKHL/sDr3vS8+e79Q9gde96Xnz3fqA6gynSgynShy/7A69
+70vPnu/UPYHXvel58936gOoMp0oMp0ocv+wOve9Lz57v1D2B173pefPd+oDqDKdKDKdKHL/sDr3v
+S8+e79Q9gde96Xnz3fqA6gynSgynShy/7A6970vPnu/UPYHXvel58936gOoMp0oMp0ocv+wOve9L
+z57v1D2B173pefPd+oDqDKdKDKdKHL/sFr3vS8+e79Q9gte96Xnz3fqA6gynSgynShy/7Ba970vP
+nu/UPYLXvel58936gOoMp0oMp0ocv+wWve9Lz57v1D2C173pefPd+oDqDKdKDKdKHL/sFr3vS8+e
+79Q9gte96Xnz3fqA6gynSgynShy/7Ba970vPnu/UPYLXvel58936gOoMp0oMp0ocv+wWve9Lz57v
+1D2C173pefPd+oDqDKdKDKdKHL/sFr3vS8+e79Q9gte96Xnz3fqA6hBy9HfdbaYkSWWe5UrW98NV
+0flz1lkaI2vQXCaOg1JHHS1D1RI6qP8AdPXocn8IFsg/LHNexrmORWu3oqLyn6AAAAAAAAAAAAAA
+AAAwrkTl5ii9q+uqi7XN+mrCr3UyORk0sW9Z3594ngT0k82tapXTmnHMpXo2urV4qBfi7vdO8iEY
+2JaO4FMupblGizTL/wAG12V4LPj+NebwAfbQOyWnomMuGpmsqatd8dMi5jhTw/GUtOCnhpo2xU8b
+ImN5GsbhPqQ+2MIp85ZGsYrnbkRMqB+8+H0DPjIFd9eOiqXRW2Br2sXCySLuXxIeDt+uXe9P9S9Z
+zTy8UTqZehTwzk2jfSszIyVn2/3Lven9PWO3+5970/pI85i7rfaeV2WZkZKz7f7n3vT+kdv9z73p
+/SPOYu59p5XZZmRkrPt/ufe9P6esdv8Ac+96f09Y83i7n2nldlmZGSs+3+5970/p6x2/3Pven9PW
+POYu59p5XZZmRkrPt/ufe9P6esdv9y73p/T1jzeLufaeV2WZkZKz7f7l3vT+nrHb/c+96f09ZPm8
+Xc+08rsszIyVn2/3Pven9PWO3+5d70/p6yPN4u59p5XZZmRkrPt/uXe9P6esdv8Ac+96f09Y85i7
+n2nldlmZGSs+3+5970/p6x2/3Pven9PWPN4u59p5XZZiuxyjJWfb9cl3LT0+PKTHTN9ivdGsnB4u
+Vi4kZnOPD4jTHnpedQwz8HNgr1XhvBgJyIZNnIxgYMgDGBgyAMYGDIAxgYMgDGBgyAMYGM8pkAfG
+opoamJ0VTEyWNyYVr2oqKVPtB2SQVEc1x0wxsM6IrpKJf3cic/A+Kvg5C3jCpkCkNk2uqmhrGaZv
+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
+2ZVWqniRceQnzmNkarXIjmryoqZQoS17M9VvVlTF2PS7uE16z+6xypjgm42da2vjtQwWW5y9lxSP
+WPL092xUzvzz70ImvzBLybX9KU9mrKe6W+JI6aqVWSxt3I2RN+U8aZ+o0WzK3+yOs6Bip7iFVmf4
+mpnqLN23cHtNYrkRX9lx8HwcufRkjmwig4yuudwcnuImNhYuOdy8JfQifWWifwT8LmbvTcQTbd3O
+6756D81pO05CCbbu53XfPQfmtMlX22Odzy1/1PXUmxCdjnc8tf8AU9dSbAAAAAAAAAAAAIHts7n9
+Z87F66E8IHts7n9Z87F66AerZD3PLP8AyyfmOJinIQ7ZD3PLP/LJ+Y4mKcgGSr9utwWGy2+3sdvq
+p1e9E52sTrcn1FoFCbaa/srVsdMm9lJTI1PA53ul/wDH6i1I9UwgAAOlYOrLN/hFF9HZ6qHKacvJ
+kkMOuNTwxNZHeahGMajWtTG5E8aFL1myNPHqr4TXX6VJ+JONiuoo6OuqLNVyIxlV+0gVVwnDTlTy
+p+BW1RNLUzyTzvV8sjlc9y8qqvSfhj3xva9j3Me1yK1zVwrVTkVBMfjodVVtqoK6aGero4JpoVzG
+97EVWr4DSa/1DHp7TlVNw/8Ai5WLHTtRd6vXdnxJylN020jVNNCkLbgj0amEdJGir9ZobteLhean
+sm6VUtRJjCK5dzfEnMZxjn5NNzs6v7NO6ngnncvYkycTMvQi8jvIv9zo6N0c0aOarXscmUVN6KnS
+clEis+t9RWaBtNR17khZubHKiORE8GS1qbnZMOibrcaW00EtbWPSOGJqqq5x5EKW2Y3GW67SpLhU
+fvalk0rk+LlUVE8iYTyEWvuqLxqBqMula6WNq5SNqcFn1IeG2XKttVWlXbqh9PPwVaj24zhfGIpq
+NGl17bvgnF9JafPYdu0rU/THeq0qS7anvd5p0p7ncZKiFHIvAemEynkMWnUt6s9MtPbLhLTwuVXu
+Y3g++xy7x0TrRpNdoS//AMu2/wAdJ66lo65+B94+iv8AwOcq28XGuuTLjWVUktazg8GZ2EcnBXLd
+2OZT31es9SVlNJTVV2nlglarZGOxvReVF3EdEmkv2Ef43cvorfWQ223pU7As+eaof6pVdnvNyssr
+5rXVuppJWIjnM50znfuU+l41Ddr02Nl1rpalsSqrEfj3Kr0YJ6Py2Lb2M6jirLMtknlxU0S/skX+
+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
+KruDhFVOnKkXsVdbbdctJS0NZFJMmaerY1VynDXG/wAqp9R7ZLFfZtNVPH0cqVt3uDHzMa391Gm/
+Kp0G21foOhpbG+o0/QSeyED2OYjHK5XYXfuX6zWJrX0ka68Vj9P3jWMDlVrayjSaHHxne4Xy5Uxq
+iinodJ6QpaREjq0njWJOZsiplPSqHo17YbhfLnZKqGjm/bsZHVIifusqmeF4sr9RuNpdJcZae0TW
+mjfVS0lWkqRxtzjgplPSgi0eg/el4dYx3LhagqIZKPi1TDFbnhc3InjPhtKytbppr1xF7Js4Xh3p
+gzpu/wCrK27wwXaxrS0rkXhS8Ffc7t3ObTX1lmvVj4FH/wA7TyJNBvx7pvQUn0vuRvZnQNki458S
+Pcv7Lh4yq+DJDtm+FuGqFkVeN9kno7PRlTVW2PUeq9Q2yW+259HS25yyOy1W8N/IiofW9QX/AEvq
+WtudioVraS4rwpIWtVeDJz8m/lyuSYrqOnY+0dJDXa71VRzKjaeaiibKqrhEVWt3mmppdSaEngiq
+1SssXGI1HJhWtaq7sLyt8RtbNpW5XKyXypvCcXcbumUY7dxaJyIvRzbvAahe22+UNJpmttj4YIZG
+NnqnNVOE1q7sryfUWj30JNtPc11ts7270W5QqnpJu392niIjtCttXV221Q0NO+dYa2JzkYnvWpnK
+ktblGIi8plM/jCFO7QpZLxf6uop6ZVpLQjYKqRi4V6OdvTybyx9I3qgu9DI21RPZT0jkharkwi4T
+m8hCLtT32xXO+0lBaXV9HdnI9snBVWsVcoufr9ButmFsu9lir7bcaZkcEb2vikb/ABucm/x4wn1m
+t4iaJY1zpy4V1ygvFgq0iuUEfBfGj8K5vMqf67jGl9VVdRZ71HeYkjuNsjV0uW8FXJhcKvhyinz1
+dDebJqpuobNRdmxzU/ETRNRV+vHNuQ0nsVf6iw3u4TUEzbjeZookgYzfHEi5VVToxkiNTXUjV2yt
+oKKLTFbDVsfco61zqpie+RJF358WVTyklvFSlh1ne52LwW1lpfMnNl7U3f3Ptf8AZ7botMzPtVG7
+2UiharHNeqq5yKirhPDhTxa4sd0vVBp+pho51qVj4mpaib2JhM59JfqpMjzXehfQ7MLFFToiTvqo
+3oq8nCcjiS6ap9bNvMa36qhkoOC5HtZwc5xu5EG0K21b9NUFPaqaSofTVMatjYmco1q7/wADzWTU
+Wsam70cFxsKwUkkmJZeCqcFMLv5enH1lN7r6aE9kTEbsLzKQbZan/wBNqPn5idPyrFREzu5iHbO6
+Gst+lp6etppIZlmlXgPTeuegpWfxmEIPRxNm0dpWFye5kuqsVPAu41dVMtfYaWmdv9jLdKkifFcs
+iIifiSi22S6xad0vBJQTtlp7mks7FbvjblN6+A+D9LXGCDWDY6Cd3HvVKVET94iyK73P1m9b1j3S
+/d/bdpNVWNthkZHW+xLeCsmMYxv5fITXR8WpY0qu2aeKVVVvE8XjcnPyIRbUMN/t9/tNytNrlqnw
+W1sLkxua7dlPGSPR941DcampbfbWtExjEWN3BVOEvPzmVvWu0JaADEAAAAPyq4A89wq4qGknq6l6
+NghYr3qvMibyj9m0UusNpVZf6mNzoKZyz+6/hc7KRp9SKvkPftp1ktY9umLO/jUVydmOj/iXOEjT
+p6V8iE72Z6X7VtMxU8rMVk68dUrz8JeRPIm4CXpyGQgAAAAAAAAAAAAAAMKhSO13Qc1JVv1LYGuS
+PhcOqhi3Oid/+jceno5S7z8uajkVFRFRdy5TlAp7QG1qJ8UVv1RIkcqbo6zHuXp/n6FLao62nroG
+z0c8c8Tt6PjcjkKz1rshornLJW6feyiqXrl0Dm/snL4Pi+QrOp0ZrWw1DmwUNezH/VoJXYXw+5VF
+9AHUGfGM+M5Z4nXqLhV1P9pUdZnitedOp/PqOsDqXPjGfGctcVrzp1P59R1jitedOp/PqOsDqX6z
+GN+cKct8Vrzp1P59R1ji9efG1P59R1gdR48Cjgp0KcucVrzp1P59R1jitedOp/PqOsDqNEROYcFO
+g5c4rXnTqfz6jrHF68+Nqjz6jrA6kxnl3jyKct8Xrz42qPPqOscVrzp1P59R1gdR48CmfIpy3xWv
+OnU/n1HWOK1506n8+o6yNDqPgoOCnQcucXrz42qPPqOscXrz42qPPqOskdSY8Yx/6hy3xevPjao8
++o6xxevPjao8+o6yB1HhM5wuekyiY5lOW+K1506n8+o6xxWvOnU/n1HWTodR4TPJ6BwU+L6Dlzit
+edOp/PqOscXrz42p/PqOsDqPgp0DHgU5c4rXnTqfz6jrHFa86dT+fUdZGh1JjwKMInMct8Xrz42p
+/PqOscXrz42qPPqOskdSKmUxgxhOhTlzitedOp/PqOscVrzp1P59R1gdR8HK5woRuExhTlzitedO
+p/PqOscXrzp1P59R1gdR4xzKMJ0KcucVrzp1P59R1jitedOp/PqOsDqX6xnxnLXFa86dT+fUdY4r
+XnTqfz6jrA6lz4xvOWuK1506n8+o6zCxa8Xci6n8+o6wOna6upqCB09bURU8TeV8jkanpKi2gbW4
+3RS27TEmVcitkrVTcif5E6fCQak0TrO/ztbPb65UVUzLXyrhvh90qqWhojZJRWiWOtvkjK6sYuWR
+on7Ji9OP4l8YGl2R6BmdUM1HfoVynuqSGXe5VXlkdn0F0tRMIYY1GtRGoiInMh+gAAAAAAAAAAAA
+AAAAAAAAADGBgyAMYGDIAxgYMgDGBgyAMYGDIAxgYMgDGBgyAMYGDIAxgYMgDGBgyAMYGDIAxgYM
+gDGBgyAMYGDIAxgYMgDGBgyAMYGDIAxgYMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//Z" alt="SOHAM Technologies Logo" width="50" height="50" />
+    <div class="logo-text">
+      <span class="logo-name">SOHAM Technologies</span>
+      <span class="logo-tag">Industrial Repair Experts &middot; Mumbai</span>
+    </div>
+  </div>
+  <div class="nav-links">
+    <a id="nav-home"     class="active" onclick="go('home')">Home</a>
+    <a id="nav-services" onclick="go('services')">Services</a>
+    <a id="nav-about"    onclick="go('about')">About</a>
+    <a id="nav-gallery"  onclick="go('gallery')">Gallery</a>
+    <a id="nav-faq"      onclick="go('faq')">FAQ</a>
+    <a id="nav-contact"  class="nav-cta" onclick="go('contact')">Get a Quote</a>
+  </div>
+  <button class="hamburger" onclick="openMob()" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ============================================================
+     HOME PAGE
+============================================================ -->
+<div class="page active" id="page-home">
+
+  <!-- Hero -->
+  <section class="hero" aria-label="Hero section">
+    <div class="hero-bg"   aria-hidden="true"></div>
+    <div class="hero-grid" aria-hidden="true"></div>
+
+    <div class="hero-left">
+      <div class="hero-eyebrow">
+        <span class="pulse-dot"></span>
+        Est. 2014 &nbsp;&middot;&nbsp; Mumbai, Maharashtra
+      </div>
+      <h1 class="hero-h1">
+        <span class="line1">Industrial</span>
+        <span class="line2">Electronics</span>
+        <span class="line3">Repair Experts</span>
+      </h1>
+      <p class="hero-desc">
+        Component-level repair of <strong>Servo Drives, VFDs, PCBs, PLCs, HMIs &amp; CNC Controllers</strong>.
+        All major brands. 2&ndash;5 day turnaround. Mumbai&rsquo;s most trusted since 2014.
+      </p>
+      <div class="hero-btns">
+        <button class="btn btn-gold" onclick="go('contact')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+          </svg>
+          Get Free Quote
+        </button>
+        <a href="https://wa.me/918046079676" target="_blank" rel="noopener" class="btn btn-wa">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          WhatsApp Now
+        </a>
+        <button class="btn btn-ghost" onclick="go('services')">All Services &rarr;</button>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-item">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          <strong>10+ Years</strong>&nbsp;Experience
+        </div>
+        <div class="trust-item">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          <strong>5,000+</strong>&nbsp;Repairs
+        </div>
+        <div class="trust-item">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          <strong>90-Day</strong>&nbsp;Warranty
+        </div>
+        <div class="trust-item">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          <strong>Free</strong>&nbsp;Diagnosis
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-right" aria-label="Core services list">
+      <p class="hero-right-label">Our Core Services</p>
+      <div class="htile" onclick="go('services')" role="button" tabindex="0">
+        <div class="htile-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/>
+          </svg>
+        </div>
+        <div>
+          <h4>Servo Motor Drive Repair</h4>
+          <p>AC &amp; DC Servo &middot; All brands</p>
+        </div>
+        <svg class="htile-arr" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+      <div class="htile" onclick="go('services')" role="button" tabindex="0">
+        <div class="htile-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <rect x="2" y="3" width="20" height="14" rx="2"/>
+            <line x1="8" y1="21" x2="16" y2="21"/>
+            <line x1="12" y1="17" x2="12" y2="21"/>
+          </svg>
+        </div>
+        <div>
+          <h4>VFD &amp; Drive Repair</h4>
+          <p>ABB &middot; Yaskawa &middot; Siemens &middot; Danfoss</p>
+        </div>
+        <svg class="htile-arr" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+      <div class="htile" onclick="go('services')" role="button" tabindex="0">
+        <div class="htile-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/>
+          </svg>
+        </div>
+        <div>
+          <h4>Electronic PCB Repair</h4>
+          <p>Component-level &middot; 98% success rate</p>
+        </div>
+        <svg class="htile-arr" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+      <div class="htile" onclick="go('services')" role="button" tabindex="0">
+        <div class="htile-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+          </svg>
+        </div>
+        <div>
+          <h4>PLC &amp; HMI Repair</h4>
+          <p>Siemens &middot; Delta &middot; Mitsubishi &middot; Omron</p>
+        </div>
+        <svg class="htile-arr" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+      <div class="htile" onclick="go('services')" role="button" tabindex="0">
+        <div class="htile-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <rect x="2" y="2" width="20" height="8" rx="2"/>
+            <rect x="2" y="14" width="20" height="8" rx="2"/>
+            <line x1="6" y1="6" x2="6.01" y2="6"/>
+            <line x1="6" y1="18" x2="6.01" y2="18"/>
+          </svg>
+        </div>
+        <div>
+          <h4>CNC Controller Repair</h4>
+          <p>Fanuc &middot; Siemens CNC &middot; Mitsubishi</p>
+        </div>
+        <svg class="htile-arr" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+      <div class="htile" onclick="go('services')" role="button" tabindex="0">
+        <div class="htile-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <polygon points="3 11 22 2 13 21 11 13 3 11"/>
+          </svg>
+        </div>
+        <div>
+          <h4>Elevator &amp; Crane Drives</h4>
+          <p>Repair &middot; Retrofit &middot; On-site</p>
+        </div>
+        <svg class="htile-arr" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <div class="stats-bar" role="region" aria-label="Key statistics">
+    <div class="stat">
+      <div class="stat-num" data-count="10" data-suffix="+">0</div>
+      <div class="stat-lbl">Years Experience</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-count="5000" data-suffix="+">0</div>
+      <div class="stat-lbl">Units Repaired</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-count="500" data-suffix="+">0</div>
+      <div class="stat-lbl">Happy Clients</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-count="25" data-suffix="+">0</div>
+      <div class="stat-lbl">Service Categories</div>
+    </div>
+  </div>
+
+  <!-- Services Preview with Tabs -->
+  <section class="section">
+    <div class="sec-head">
+      <div class="sec-eyebrow reveal">What We Repair</div>
+      <h2 class="sec-title reveal">Industrial <span>Repair Services</span></h2>
+      <p class="sec-sub centered reveal">Component-level expertise across 25+ categories &mdash; servo drives to fire alarm systems.</p>
+    </div>
+
+    <div class="tab-bar reveal">
+      <button class="tab-btn active" onclick="switchTab('drives', this)">Drives &amp; Motors</button>
+      <button class="tab-btn" onclick="switchTab('pcb', this)">PCB &amp; Electronics</button>
+      <button class="tab-btn" onclick="switchTab('plc', this)">PLC / HMI / CNC</button>
+      <button class="tab-btn" onclick="switchTab('heavy', this)">Heavy Equipment</button>
+      <button class="tab-btn" onclick="switchTab('safety', this)">Safety &amp; Other</button>
+    </div>
+
+    <!-- Drives Tab -->
+    <div class="tab-pane active" id="tab-drives">
+      <article class="scard">
+        <div class="sc-img">
+          <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=380&fit=crop&q=80" alt="Servo Motor Drive Repair Mumbai" loading="lazy" />
+          <div class="sc-overlay"></div>
+          <span class="sc-badge">Popular</span>
+        </div>
+        <div class="sc-head">
+          <div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/></svg></div>
+          <h3>Servo Motor Drive Repair</h3>
+        </div>
+        <div class="sc-body">
+          <p>All AC and DC servo drive types repaired at component level. All major brands serviced.</p>
+          <ul class="sc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>AC Servo Drive Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>DC Servo Drive Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>All brands &amp; models</li>
+          </ul>
+          <div class="sc-foot">
+            <button class="sc-cta" onclick="go('contact')">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Enquire
+            </button>
+            <span class="sc-price">From &#8377;2,500</span>
+          </div>
+        </div>
+      </article>
+      <article class="scard">
+        <div class="sc-img">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=380&fit=crop&q=80" alt="VFD Drive Repair Mumbai" loading="lazy" />
+          <div class="sc-overlay"></div>
+        </div>
+        <div class="sc-head">
+          <div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+          <h3>VFD &amp; AC-DC Drive Repair</h3>
+        </div>
+        <div class="sc-body">
+          <p>ABB, Yaskawa, Siemens, Vacon, Danfoss, Lenze and all other VFD brands repaired.</p>
+          <ul class="sc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>VFD Repair &amp; Service</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>DC Drive Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Elevator Drive Repair</li>
+          </ul>
+          <div class="sc-foot">
+            <button class="sc-cta" onclick="go('contact')">Enquire</button>
+            <span class="sc-price">All brands</span>
+          </div>
+        </div>
+      </article>
+      <article class="scard">
+        <div class="sc-img">
+          <img src="https://images.unsplash.com/photo-1565514020179-026b92b2d70b?w=600&h=380&fit=crop&q=80" alt="Elevator Drive Repair Mumbai" loading="lazy" />
+          <div class="sc-overlay"></div>
+        </div>
+        <div class="sc-head">
+          <div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></div>
+          <h3>Elevator Drive Repair</h3>
+        </div>
+        <div class="sc-body">
+          <p>Complete elevator electronics — drive, door drive, and system restoration.</p>
+          <ul class="sc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Elevator Drive Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Elevator Door Drive</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Fast turnaround</li>
+          </ul>
+          <div class="sc-foot">
+            <button class="sc-cta" onclick="go('contact')">Enquire</button>
+            <span class="sc-price">Express available</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- PCB Tab -->
+    <div class="tab-pane" id="tab-pcb">
+      <article class="scard">
+        <div class="sc-img">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=380&fit=crop&q=80" alt="Electronic PCB Repair Mumbai" loading="lazy" />
+          <div class="sc-overlay"></div>
+          <span class="sc-badge">98% Success</span>
+        </div>
+        <div class="sc-head">
+          <div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+          <h3>Electronic PCB Repair</h3>
+        </div>
+        <div class="sc-body">
+          <p>Component-level PCB repair. We fix boards others call unrepairable &mdash; 98% success rate.</p>
+          <ul class="sc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Industrial PCB Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Quick turnaround</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>All board types</li>
+          </ul>
+          <div class="sc-foot">
+            <button class="sc-cta" onclick="go('contact')">Enquire</button>
+            <span class="sc-price">Fast service</span>
+          </div>
+        </div>
+      </article>
+      <article class="scard">
+        <div class="sc-img">
+          <img src="https://images.unsplash.com/photo-1604869515882-4d10fa4b0492?w=600&h=380&fit=crop&q=80" alt="Power Supply SMPS Repair Mumbai" loading="lazy" />
+          <div class="sc-overlay"></div>
+        </div>
+        <div class="sc-head">
+          <div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+          <h3>Power Supply / SMPS Repair</h3>
+        </div>
+        <div class="sc-body">
+          <p>Industrial SMPS repair with full load testing and 90-day warranty.</p>
+          <ul class="sc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>SMPS Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Industrial Power Supply</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Full load tested</li>
+          </ul>
+          <div class="sc-foot">
+            <button class="sc-cta" onclick="go('contact')">Enquire</button>
+            <span class="sc-price">From &#8377;2,500</span>
+          </div>
+        </div>
+      </article>
+      <article class="scard">
+        <div class="sc-img">
+          <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&h=380&fit=crop&q=80" alt="Encoder Repair Mumbai" loading="lazy" />
+          <div class="sc-overlay"></div>
+        </div>
+        <div class="sc-head">
+          <div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+          <h3>Encoder &amp; Sensor Repair</h3>
+        </div>
+        <div class="sc-body">
+          <p>Industrial encoder and sensor repair for CNC, robotics, and automation systems.</p>
+          <ul class="sc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Encoder Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Position Sensor Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>All types</li>
+          </ul>
+          <div class="sc-foot">
+            <button class="sc-cta" onclick="go('contact')">Enquire</button>
+            <span class="sc-price">All types</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- PLC Tab -->
+    <div class="tab-pane" id="tab-plc">
+      <article class="scard">
+        <div class="sc-img">
+          <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=380&fit=crop&q=80" alt="PLC HMI Repair Mumbai" loading="lazy" />
+          <div class="sc-overlay"></div>
+          <span class="sc-badge">All Brands</span>
+        </div>
+        <div class="sc-head">
+          <div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+          <h3>PLC &amp; HMI Repair</h3>
+        </div>
+        <div class="sc-body">
+          <p>Siemens, Delta, Mitsubishi, Allen Bradley, Omron, Fatek and all other brands.</p>
+          <ul class="sc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>HMI Touch Panel Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Siemens HMI Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>All PLC brands</li>
+          </ul>
+          <div class="sc-foot">
+            <button class="sc-cta" onclick="go('contact')">Enquire</button>
+            <span class="sc-price">All brands</span>
+          </div>
+        </div>
+      </article>
+      <article class="scard">
+        <div class="sc-img">
+          <img src="https://images.unsplash.com/photo-1565514020179-026b92b2d70b?w=600&h=380&fit=crop&q=80" alt="CNC Controller Repair Mumbai" loading="lazy" />
+          <div class="sc-overlay"></div>
+        </div>
+        <div class="sc-head">
+          <div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/></svg></div>
+          <h3>CNC Controller Repair</h3>
+        </div>
+        <div class="sc-body">
+          <p>Fanuc, Siemens CNC, Mitsubishi. CNC lathe and laser cutting machine repair.</p>
+          <ul class="sc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CNC Machine Controller</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CNC Lathe Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CNC Laser Cutting</li>
+          </ul>
+          <div class="sc-foot">
+            <button class="sc-cta" onclick="go('contact')">Enquire</button>
+            <span class="sc-price">Express available</span>
+          </div>
+        </div>
+      </article>
+      <article class="scard">
+        <div class="sc-img">
+          <img src="https://images.unsplash.com/photo-1495592822108-9e6261896da8?w=600&h=380&fit=crop&q=80" alt="Industrial Monitor Repair Mumbai" loading="lazy" />
+          <div class="sc-overlay"></div>
+        </div>
+        <div class="sc-head">
+          <div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+          <h3>Industrial Monitor Repair</h3>
+        </div>
+        <div class="sc-body">
+          <p>Industrial displays, ship dashboard panels and specialty monitors.</p>
+          <ul class="sc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Industrial Monitor</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Ship Dashboard Display</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CRT / LCD Panels</li>
+          </ul>
+          <div class="sc-foot">
+            <button class="sc-cta" onclick="go('contact')">Enquire</button>
+            <span class="sc-price">All types</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Heavy Equipment Tab -->
+    <div class="tab-pane" id="tab-heavy">
+      <article class="scard">
+        <div class="sc-img">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&h=380&fit=crop&q=80" alt="Excavator ECU Repair Mumbai" loading="lazy" />
+          <div class="sc-overlay"></div>
+        </div>
+        <div class="sc-head">
+          <div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <h3>Excavator &amp; Construction</h3>
+        </div>
+        <div class="sc-body">
+          <p>ECU, ECM, monitor, joystick for Komatsu, CAT, JCB, Hyundai, Volvo.</p>
+          <ul class="sc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Excavator ECU/ECM Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Crane Joystick Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>All OEM brands</li>
+          </ul>
+          <div class="sc-foot">
+            <button class="sc-cta" onclick="go('contact')">Enquire</button>
+            <span class="sc-price">All OEMs</span>
+          </div>
+        </div>
+      </article>
+      <article class="scard">
+        <div class="sc-img">
+          <img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=600&h=380&fit=crop&q=80" alt="Shearing Bending Machine Repair" loading="lazy" />
+          <div class="sc-overlay"></div>
+        </div>
+        <div class="sc-head">
+          <div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></div>
+          <h3>Shearing &amp; Bending Machine</h3>
+        </div>
+        <div class="sc-body">
+          <p>Repair, maintenance and retrofitting of shearing and bending machines.</p>
+          <ul class="sc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Bending Machine Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Shearing Machine Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Used Machine Retrofit</li>
+          </ul>
+          <div class="sc-foot">
+            <button class="sc-cta" onclick="go('contact')">Enquire</button>
+            <span class="sc-price">On-site available</span>
+          </div>
+        </div>
+      </article>
+      <article class="scard">
+        <div class="sc-img">
+          <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=380&fit=crop&q=60" alt="Machine Maintenance AMC Mumbai" loading="lazy" />
+          <div class="sc-overlay"></div>
+        </div>
+        <div class="sc-head">
+          <div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4"/></svg></div>
+          <h3>Machine Maintenance (AMC)</h3>
+        </div>
+        <div class="sc-body">
+          <p>Annual maintenance contracts for CNC, SPM, shearing, bending. Pan-Mumbai on-site.</p>
+          <ul class="sc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CNC Machine Maintenance</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Hydraulic Equipment</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>AMC Contracts</li>
+          </ul>
+          <div class="sc-foot">
+            <button class="sc-cta" onclick="go('contact')">Enquire</button>
+            <span class="sc-price">AMC available</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Safety Tab -->
+    <div class="tab-pane" id="tab-safety">
+      <article class="scard">
+        <div class="sc-img">
+          <img src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=600&h=380&fit=crop&q=80" alt="Fire Alarm System Mumbai" loading="lazy" />
+          <div class="sc-overlay"></div>
+        </div>
+        <div class="sc-head">
+          <div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8.5 14.5A2.5 2.5 0 0011 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 01-7 7c-1.53 0-2.94-.5-4.07-1.32"/></svg></div>
+          <h3>Fire Alarm &amp; Detection</h3>
+        </div>
+        <div class="sc-body">
+          <p>Supply, installation and repair of fire alarm and detection systems.</p>
+          <ul class="sc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Fire Alarm System</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Fire Detection System</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Supply &amp; Install</li>
+          </ul>
+          <div class="sc-foot">
+            <button class="sc-cta" onclick="go('contact')">Enquire</button>
+            <span class="sc-price">Supply &amp; install</span>
+          </div>
+        </div>
+      </article>
+      <article class="scard">
+        <div class="sc-img">
+          <img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=600&h=380&fit=crop&q=60" alt="Control Panel Repair Mumbai" loading="lazy" />
+          <div class="sc-overlay"></div>
+        </div>
+        <div class="sc-head">
+          <div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="2"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="12" y1="7" x2="12" y2="17"/></svg></div>
+          <h3>Control Panel Repair</h3>
+        </div>
+        <div class="sc-body">
+          <p>Industrial and fire alarm control panel repair. All electronic panel types.</p>
+          <ul class="sc-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Control Panel Repair</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Fire Alarm Panel</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Robot Spares Repair</li>
+          </ul>
+          <div class="sc-foot">
+            <button class="sc-cta" onclick="go('contact')">Enquire</button>
+            <span class="sc-price">All types</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div style="text-align:center;margin-top:40px" class="reveal">
+      <button class="btn btn-outline" onclick="go('services')">View All 25+ Service Categories &rarr;</button>
+    </div>
+  </section>
+
+  <!-- Brands Marquee -->
+  <section class="section-stone" style="padding-top:60px;padding-bottom:60px">
+    <div class="sec-head">
+      <div class="sec-eyebrow reveal">Brands We Service</div>
+      <h2 class="sec-title reveal">All Major <span>Industrial Brands</span></h2>
+    </div>
+    <div class="marquee-outer reveal">
+      <div class="marquee-track">
+        <div class="brand-tag">Siemens</div><div class="brand-tag">ABB</div><div class="brand-tag">Fanuc</div><div class="brand-tag">Yaskawa</div><div class="brand-tag">Mitsubishi</div><div class="brand-tag">Allen Bradley</div><div class="brand-tag">Omron</div><div class="brand-tag">Delta</div><div class="brand-tag">Bosch Rexroth</div><div class="brand-tag">Schneider</div><div class="brand-tag">Vacon</div><div class="brand-tag">Danfoss</div><div class="brand-tag">Lenze</div><div class="brand-tag">Parker</div><div class="brand-tag">Honeywell</div><div class="brand-tag">Komatsu</div><div class="brand-tag">Caterpillar</div><div class="brand-tag">JCB</div><div class="brand-tag">Fatek</div><div class="brand-tag">Rockwell</div><div class="brand-tag">Emerson</div><div class="brand-tag">GE Fanuc</div><div class="brand-tag">Hyundai</div><div class="brand-tag">Control Techniques</div>
+        <div class="brand-tag">Siemens</div><div class="brand-tag">ABB</div><div class="brand-tag">Fanuc</div><div class="brand-tag">Yaskawa</div><div class="brand-tag">Mitsubishi</div><div class="brand-tag">Allen Bradley</div><div class="brand-tag">Omron</div><div class="brand-tag">Delta</div><div class="brand-tag">Bosch Rexroth</div><div class="brand-tag">Schneider</div><div class="brand-tag">Vacon</div><div class="brand-tag">Danfoss</div><div class="brand-tag">Lenze</div><div class="brand-tag">Parker</div><div class="brand-tag">Honeywell</div><div class="brand-tag">Komatsu</div><div class="brand-tag">Caterpillar</div><div class="brand-tag">JCB</div><div class="brand-tag">Fatek</div><div class="brand-tag">Rockwell</div><div class="brand-tag">Emerson</div><div class="brand-tag">GE Fanuc</div><div class="brand-tag">Hyundai</div><div class="brand-tag">Control Techniques</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section class="section">
+    <div class="sec-head">
+      <div class="sec-eyebrow gold reveal">Why Choose Us</div>
+      <h2 class="sec-title reveal">Mumbai&rsquo;s Most <span>Trusted</span> Repair Partner</h2>
+      <p class="sec-sub centered reveal">Built on technical excellence, honest pricing, and results that last since 2014.</p>
+    </div>
+    <div class="whyus-grid">
+      <div class="reveal-l">
+        <div class="why-list">
+          <div class="why-item"><div class="why-num">01</div><div><h4>Component-Level Expertise</h4><p>Board-level diagnosis saves 60&ndash;80% vs OEM replacement. We fix what others cannot.</p></div></div>
+          <div class="why-item"><div class="why-num">02</div><div><h4>Fast 2&ndash;5 Day Turnaround</h4><p>Production downtime is costly. Express service available for critical breakdowns.</p></div></div>
+          <div class="why-item"><div class="why-num">03</div><div><h4>90-Day Repair Warranty</h4><p>Every repair backed by warranty. Same fault recurs? We fix it at no charge.</p></div></div>
+          <div class="why-item"><div class="why-num">04</div><div><h4>On-Site Service &mdash; Pan Mumbai</h4><p>Engineers visit your facility for maintenance contracts and large installations.</p></div></div>
+        </div>
+      </div>
+      <div class="reveal-r">
+        <div class="why-boxes">
+          <div class="why-box feat"><div class="wbn">10+</div><div class="wbl">Years Industrial Expertise</div></div>
+          <div class="why-box"><div class="wbn">5K+</div><div class="wbl">Units Repaired</div></div>
+          <div class="why-box"><div class="wbn">98%</div><div class="wbl">Repair Success Rate</div></div>
+          <div class="why-box"><div class="wbn">25+</div><div class="wbl">Service Categories</div></div>
+          <div class="why-box"><div class="wbn">100+</div><div class="wbl">Brands Serviced</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-stone">
+    <div class="sec-head">
+      <div class="sec-eyebrow reveal">How It Works</div>
+      <h2 class="sec-title reveal">Our <span>Repair Process</span></h2>
+      <p class="sec-sub centered reveal">Simple, transparent, efficient &mdash; from first contact to certified delivery.</p>
+    </div>
+    <div class="process-grid reveal">
+      <div class="process-line" aria-hidden="true"></div>
+      <div class="proc-step"><div class="proc-num">01</div><h3>Submit Inquiry</h3><p>Contact via WhatsApp, call, or our online form. Free consultation, no obligation.</p></div>
+      <div class="proc-step"><div class="proc-num">02</div><h3>Free Diagnosis</h3><p>Component-level diagnosis with a fully transparent quote before any work begins.</p></div>
+      <div class="proc-step"><div class="proc-num">03</div><h3>Expert Repair</h3><p>Skilled engineers repair using genuine parts with rigorous full-load testing.</p></div>
+      <div class="proc-step"><div class="proc-num">04</div><h3>Delivery + Warranty</h3><p>Delivered with 90-day warranty and test certification document.</p></div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section">
+    <div class="sec-head">
+      <div class="sec-eyebrow reveal">Client Reviews</div>
+      <h2 class="sec-title reveal">What Our <span>Clients Say</span></h2>
+    </div>
+    <div class="tgrid">
+      <div class="tcard reveal">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="tcard-txt">&ldquo;Soham repaired our Fanuc servo drive that three other companies declared unrepairable. Back in production within 3 days. Outstanding technical expertise.&rdquo;</p>
+        <div class="tcard-auth"><div class="tcard-av">RK</div><div><div class="tcard-name">Rajesh Kulkarni</div><div class="tcard-role">Production Manager, Auto Parts Ltd.</div></div></div>
+      </div>
+      <div class="tcard reveal">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="tcard-txt">&ldquo;Repaired our elevator VFD at a fraction of replacement cost. Transparent pricing and professional service. Best PCB repair in Mumbai.&rdquo;</p>
+        <div class="tcard-auth"><div class="tcard-av">AM</div><div><div class="tcard-name">Anand Mehta</div><div class="tcard-role">Facility Manager, Commercial Tower</div></div></div>
+      </div>
+      <div class="tcard reveal">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="tcard-txt">&ldquo;Gajanan sir and team repaired our Siemens PLC and HMI. On-time delivery with full warranty. Very reliable &mdash; highly recommended!&rdquo;</p>
+        <div class="tcard-auth"><div class="tcard-av">SP</div><div><div class="tcard-name">Suresh Patil</div><div class="tcard-role">Maintenance Head, Chemical Plant</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="cta-block">
+    <div class="cta-block-bg" aria-hidden="true"></div>
+    <div class="cta-watermark" aria-hidden="true">SOHAM</div>
+    <h2 class="reveal">Equipment <span>Down?</span><br/>We&rsquo;ll Get It <em>Running.</em></h2>
+    <p class="cta-sub reveal">Free diagnosis &middot; Honest quote &middot; Fast repair &middot; 90-day warranty</p>
+    <div class="cta-btns reveal">
+      <button class="btn btn-gold" onclick="go('contact')">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        Get Free Quote
+      </button>
+      <a href="https://wa.me/918046079676" target="_blank" rel="noopener" class="btn btn-wa">&#128172; WhatsApp Now</a>
+      <a href="tel:+918046079676" class="btn btn-ghost">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.19 1.19 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Call Now
+      </a>
+    </div>
+  </div>
+
+</div><!-- /page-home -->
+
+<!-- ============================================================
+     SERVICES PAGE
+============================================================ -->
+<div class="page" id="page-services">
+  <div class="pbanner">
+    <div class="pbanner-watermark" aria-hidden="true">SERVICES</div>
+    <div class="pbanner-inner">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <span onclick="go('home')">Home</span><span class="sep">›</span><span>Services</span>
+      </nav>
+      <h1>All <span>Repair Services</span></h1>
+      <p>25+ specialized repair categories. Component-level expertise across all brands and equipment types.</p>
+    </div>
+  </div>
+  <section class="section">
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px;max-width:1200px;margin:0 auto">
+      <article class="scard reveal"><div class="sc-img"><img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=380&fit=crop&q=80" alt="Servo Drive Repair" loading="lazy"/><div class="sc-overlay"></div><span class="sc-badge">Popular</span></div><div class="sc-head"><div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/></svg></div><h3>Servo Motor Drive Repair</h3></div><div class="sc-body"><p>AC &amp; DC servo drives repaired at component level. All brands serviced.</p><ul class="sc-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>AC Servo Drive Repair</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>DC Servo Drive Repair</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>VFD / Drive Repair</li></ul><div class="sc-foot"><button class="sc-cta" onclick="go('contact')">Enquire</button><span class="sc-price">From ₹2,500</span></div></div></article>
+      <article class="scard reveal"><div class="sc-img"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=380&fit=crop&q=80" alt="PCB Repair" loading="lazy"/><div class="sc-overlay"></div><span class="sc-badge">98% Success</span></div><div class="sc-head"><div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div><h3>Electronic PCB Repair</h3></div><div class="sc-body"><p>Component-level PCB repair. 98% success rate even on complex boards.</p><ul class="sc-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Quick turnaround</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Industrial PCB Repair</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>All board types</li></ul><div class="sc-foot"><button class="sc-cta" onclick="go('contact')">Enquire</button><span class="sc-price">Fast service</span></div></div></article>
+      <article class="scard reveal"><div class="sc-img"><img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=380&fit=crop&q=80" alt="PLC HMI Repair" loading="lazy"/><div class="sc-overlay"></div></div><div class="sc-head"><div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div><h3>PLC &amp; HMI Repair</h3></div><div class="sc-body"><p>Siemens, Delta, Mitsubishi, Allen Bradley, Omron, Fatek — all brands.</p><ul class="sc-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>HMI Touch Panel</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Siemens HMI</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>All PLC brands</li></ul><div class="sc-foot"><button class="sc-cta" onclick="go('contact')">Enquire</button><span class="sc-price">All brands</span></div></div></article>
+      <article class="scard reveal"><div class="sc-img"><img src="https://images.unsplash.com/photo-1565514020179-026b92b2d70b?w=600&h=380&fit=crop&q=80" alt="CNC Controller Repair" loading="lazy"/><div class="sc-overlay"></div></div><div class="sc-head"><div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/></svg></div><h3>CNC Controller Repair</h3></div><div class="sc-body"><p>Fanuc, Siemens CNC, Mitsubishi. Lathe and laser cutting restored.</p><ul class="sc-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CNC Machine Controller</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CNC Lathe Repair</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Laser Cutting CNC</li></ul><div class="sc-foot"><button class="sc-cta" onclick="go('contact')">Enquire</button><span class="sc-price">Express available</span></div></div></article>
+      <article class="scard reveal"><div class="sc-img"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=380&fit=crop&q=80" alt="Power Supply SMPS Repair" loading="lazy"/><div class="sc-overlay"></div></div><div class="sc-head"><div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div><h3>Power Supply / SMPS</h3></div><div class="sc-body"><p>SMPS and industrial power supply repair with full load testing.</p><ul class="sc-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>SMPS Repair</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Industrial Power Supply</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Full load tested</li></ul><div class="sc-foot"><button class="sc-cta" onclick="go('contact')">Enquire</button><span class="sc-price">From ₹2,500</span></div></div></article>
+      <article class="scard reveal"><div class="sc-img"><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&h=380&fit=crop&q=80" alt="Excavator Repair" loading="lazy"/><div class="sc-overlay"></div></div><div class="sc-head"><div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Excavator &amp; Construction</h3></div><div class="sc-body"><p>ECU/ECM, monitor, joystick — Komatsu, CAT, JCB, Hyundai, Volvo.</p><ul class="sc-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Excavator ECU/ECM</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Crane Joystick</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>All OEM brands</li></ul><div class="sc-foot"><button class="sc-cta" onclick="go('contact')">Enquire</button><span class="sc-price">All OEMs</span></div></div></article>
+      <article class="scard reveal"><div class="sc-img"><img src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=600&h=380&fit=crop&q=80" alt="Fire Alarm System" loading="lazy"/><div class="sc-overlay"></div></div><div class="sc-head"><div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8.5 14.5A2.5 2.5 0 0011 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 01-7 7c-1.53 0-2.94-.5-4.07-1.32"/></svg></div><h3>Fire Alarm &amp; Detection</h3></div><div class="sc-body"><p>Supply, installation and repair of fire alarm and detection systems.</p><ul class="sc-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Fire Alarm System</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Fire Detection</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Supply &amp; install</li></ul><div class="sc-foot"><button class="sc-cta" onclick="go('contact')">Enquire</button><span class="sc-price">Supply &amp; install</span></div></div></article>
+      <article class="scard reveal"><div class="sc-img"><img src="https://images.unsplash.com/photo-1495592822108-9e6261896da8?w=600&h=380&fit=crop&q=80" alt="Industrial Monitor Repair" loading="lazy"/><div class="sc-overlay"></div></div><div class="sc-head"><div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div><h3>Industrial Monitor Repair</h3></div><div class="sc-body"><p>Industrial displays and ship dashboard panel repair. All types.</p><ul class="sc-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Industrial Monitor</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Ship Dashboard Display</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CRT / LCD Panels</li></ul><div class="sc-foot"><button class="sc-cta" onclick="go('contact')">Enquire</button><span class="sc-price">All types</span></div></div></article>
+      <article class="scard reveal"><div class="sc-img"><img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=380&fit=crop&q=60" alt="Machine Maintenance AMC" loading="lazy"/><div class="sc-overlay"></div></div><div class="sc-head"><div class="sc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4"/></svg></div><h3>Machine Maintenance (AMC)</h3></div><div class="sc-body"><p>Annual maintenance contracts — CNC, SPM, shearing, bending. Pan-Mumbai.</p><ul class="sc-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>CNC Maintenance</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Hydraulic Equipment</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>AMC Contracts</li></ul><div class="sc-foot"><button class="sc-cta" onclick="go('contact')">Enquire</button><span class="sc-price">AMC available</span></div></div></article>
+    </div>
+  </section>
+</div>
+
+<!-- ============================================================
+     ABOUT PAGE
+============================================================ -->
+<div class="page" id="page-about">
+  <div class="pbanner">
+    <div class="pbanner-watermark" aria-hidden="true">ABOUT</div>
+    <div class="pbanner-inner">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><span onclick="go('home')">Home</span><span class="sep">›</span><span>About</span></nav>
+      <h1>About <span>SOHAM Technologies</span></h1>
+      <p>Mumbai&rsquo;s trusted industrial electronics repair partner since 2014 &mdash; built on technical excellence and honest service.</p>
+    </div>
+  </div>
+  <section class="section">
+    <div class="about-grid">
+      <div class="about-img-wrap reveal-l">
+        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=900&h=600&fit=crop&q=80" alt="SOHAM Technologies workshop Mumbai" loading="lazy" />
+        <div class="about-badge"><div class="about-badge-n">10+</div><div class="about-badge-l">Years of Service</div></div>
+      </div>
+      <div class="reveal-r">
+        <div class="sec-eyebrow" style="display:inline-flex;margin-bottom:14px">Our Story</div>
+        <h2 class="sec-title" style="text-align:left;margin-bottom:18px">Expert Repairs by <span>Skilled Engineers</span></h2>
+        <p style="font-size:15px;color:var(--t2);line-height:1.88;margin-bottom:14px;font-weight:300">Incepted in 2014, SOHAM Technologies is one of Mumbai&rsquo;s leading industrial electronics repair organisations. Founded by <strong style="color:var(--navy);font-weight:600">Mr. Gajanan Pandurang Kasar</strong>, the company was built with one mission: deliver world-class repair quality at honest prices.</p>
+        <p style="font-size:15px;color:var(--t2);line-height:1.88;margin-bottom:14px;font-weight:300">We specialise in component-level diagnosis and repair, saving clients 60&ndash;80% compared to OEM replacement. We fix equipment that others declare unrepairable.</p>
+        <p style="font-size:15px;color:var(--t2);line-height:1.88;margin-bottom:26px;font-weight:300">Our clients span Manufacturing, Marine, Medical, Defence, Textile, Construction, Chemical, and Automotive sectors across Mumbai and Maharashtra.</p>
+        <div>
+          <div class="about-fact">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div><strong>Address</strong><span>Floor-1, 42B Hanuman Industrial Estate, G D Ambekar Marg, Mumbai 400031</span></div>
+          </div>
+          <div class="about-fact">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            <div><strong>Proprietor</strong><span>Mr. Gajanan Pandurang Kasar</span></div>
+          </div>
+          <div class="about-fact">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <div><strong>Working Hours</strong><span>Mon&ndash;Fri 9:00 AM &ndash; 6:00 PM &nbsp;&middot;&nbsp; Sat 9:00 AM &ndash; 4:00 PM</span></div>
+          </div>
+          <div class="about-fact">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.19 1.19 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <div><strong>Phone / WhatsApp</strong><span><a href="tel:+918046079676" style="color:var(--red)">+91 80460 79676</a></span></div>
+          </div>
+          <div class="about-fact">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <div><strong>Email</strong><span><a href="mailto:sohamtechnologiesmumbai@gmail.com" style="color:var(--red)">sohamtechnologiesmumbai@gmail.com</a></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="cta-block">
+    <div class="cta-block-bg" aria-hidden="true"></div>
+    <h2 class="reveal">Ready to <span>Restore</span> Your Equipment?</h2>
+    <p class="cta-sub reveal">Free diagnosis &middot; Honest pricing &middot; 90-day warranty on every repair.</p>
+    <div class="cta-btns reveal">
+      <button class="btn btn-gold" onclick="go('contact')">Get Free Quote</button>
+      <a href="https://wa.me/918046079676" target="_blank" rel="noopener" class="btn btn-wa">&#128172; WhatsApp Us</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     GALLERY PAGE
+============================================================ -->
+<div class="page" id="page-gallery">
+  <div class="pbanner">
+    <div class="pbanner-watermark" aria-hidden="true">GALLERY</div>
+    <div class="pbanner-inner">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><span onclick="go('home')">Home</span><span class="sep">›</span><span>Gallery</span></nav>
+      <h1>Work <span>Gallery</span></h1>
+      <p>A look at our repair work, workshop, and industrial electronics we restore to full performance.</p>
+    </div>
+  </div>
+  <section class="section">
+    <div class="gallery-grid">
+      <div class="gal-item"><img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=700&h=500&fit=crop&q=80" alt="Servo drive repair" loading="lazy"/><span class="gal-cat">Servo Drive</span><div class="gal-lbl">Component-level servo drive restoration</div></div>
+      <div class="gal-item"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=400&fit=crop&q=80" alt="PCB repair" loading="lazy"/><span class="gal-cat">PCB</span><div class="gal-lbl">Electronic PCB precision repair</div></div>
+      <div class="gal-item"><img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&h=400&fit=crop&q=80" alt="PLC HMI repair" loading="lazy"/><span class="gal-cat">PLC / HMI</span><div class="gal-lbl">Siemens PLC &amp; HMI restoration</div></div>
+      <div class="gal-item"><img src="https://images.unsplash.com/photo-1565514020179-026b92b2d70b?w=700&h=500&fit=crop&q=80" alt="CNC machine repair" loading="lazy"/><span class="gal-cat">CNC Machine</span><div class="gal-lbl">CNC machine on-site maintenance</div></div>
+      <div class="gal-item"><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=500&h=400&fit=crop&q=80" alt="Excavator repair" loading="lazy"/><span class="gal-cat">Excavator</span><div class="gal-lbl">Construction equipment ECU repair</div></div>
+      <div class="gal-item"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=400&fit=crop&q=80" alt="Power supply repair" loading="lazy"/><span class="gal-cat">Power Supply</span><div class="gal-lbl">SMPS load-tested &amp; certified</div></div>
+      <div class="gal-item"><img src="https://images.unsplash.com/photo-1604869515882-4d10fa4b0492?w=700&h=500&fit=crop&q=80" alt="VFD drive repair" loading="lazy"/><span class="gal-cat">VFD Drive</span><div class="gal-lbl">VFD drive component repair</div></div>
+      <div class="gal-item"><img src="https://images.unsplash.com/photo-1495592822108-9e6261896da8?w=500&h=400&fit=crop&q=80" alt="Industrial monitor repair" loading="lazy"/><span class="gal-cat">Monitor</span><div class="gal-lbl">Industrial display panel repair</div></div>
+      <div class="gal-item"><img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=500&h=400&fit=crop&q=80" alt="Encoder repair" loading="lazy"/><span class="gal-cat">Encoder</span><div class="gal-lbl">Position encoder repair &amp; calibration</div></div>
+    </div>
+    <p style="text-align:center;margin-top:32px;font-size:14px;color:var(--t3);font-style:italic">Replace with your own workshop &amp; team photos for best results.</p>
+  </section>
+</div>
+
+<!-- ============================================================
+     FAQ PAGE
+============================================================ -->
+<div class="page" id="page-faq">
+  <div class="pbanner">
+    <div class="pbanner-watermark" aria-hidden="true">FAQ</div>
+    <div class="pbanner-inner">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><span onclick="go('home')">Home</span><span class="sep">›</span><span>FAQ</span></nav>
+      <h1>Frequently Asked <span>Questions</span></h1>
+      <p>Everything you need to know about our services, process, and pricing.</p>
+    </div>
+  </div>
+  <section class="section">
+    <div class="faq-list">
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>What types of industrial equipment do you repair?</h4><div class="faq-tog">+</div></div><div class="faq-a">We repair Servo Motor Drives (AC &amp; DC), VFDs, Electronic PCBs, PLCs, HMI Touch Panels, CNC Controllers (Fanuc/Siemens/Mitsubishi), Elevator Drives, Excavator ECU/ECM, Fire Alarm Systems, Industrial Monitors, Power Supplies/SMPS, Encoders, Control Panels, Crane Joysticks, Shearing &amp; Bending Machines, Robot Spares, and Hydraulic Equipment — 25+ service categories in all.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>How long does a typical repair take?</h4><div class="faq-tog">+</div></div><div class="faq-a">Standard turnaround is 2&ndash;5 business days depending on the fault complexity and parts availability. Express service is available for critical production needs. We always provide a clear timeline estimate before starting work.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>Do you offer a warranty on repairs?</h4><div class="faq-tog">+</div></div><div class="faq-a">Yes — all repairs carry a 90-day warranty covering the same fault. If the identical issue recurs within the warranty period, we repair it at no charge. We stand completely behind every repair we do.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>Which brands do you service?</h4><div class="faq-tog">+</div></div><div class="faq-a">We service Siemens, ABB, Fanuc, Yaskawa, Mitsubishi, Allen Bradley, Omron, Delta, Bosch Rexroth, Schneider, Vacon, Danfoss, Lenze, Parker, Komatsu, Caterpillar, JCB, Hyundai, Fatek, Rockwell, Emerson, GE Fanuc, Control Techniques and 100+ more brands across all industrial categories.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>How much does industrial repair cost?</h4><div class="faq-tog">+</div></div><div class="faq-a">SMPS repairs start from ₹2,500. Drive and controller repairs typically range ₹5,000–₹50,000 depending on the unit, saving you 60–80% vs OEM replacement cost. We provide a free diagnosis and transparent quote before any work begins — no hidden charges.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>Do you offer on-site repair services?</h4><div class="faq-tog">+</div></div><div class="faq-a">Yes — we offer on-site machine maintenance and repair across Mumbai. For large installations or equipment that cannot be transported, our engineers can visit your facility. Contact us via WhatsApp or call to arrange an on-site assessment.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>Can you repair PCBs that others call unrepairable?</h4><div class="faq-tog">+</div></div><div class="faq-a">Yes — we specialise in complex PCB repairs with a 98% success rate. Our engineers perform true component-level diagnosis using professional test equipment, which enables us to fix boards other workshops cannot handle.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>How do I send my equipment for repair?</h4><div class="faq-tog">+</div></div><div class="faq-a">You can courier or hand-deliver to our workshop at Hanuman Industrial Estate, G D Ambekar Marg, Mumbai 400031. Alternatively, WhatsApp us to arrange a pickup. Always include a written fault description with the unit for the fastest processing.</div></div>
+    </div>
+  </section>
+  <div class="cta-block">
+    <div class="cta-block-bg" aria-hidden="true"></div>
+    <h2 class="reveal">Still Have <span>Questions?</span></h2>
+    <p class="cta-sub reveal">Our team responds via WhatsApp within 30 minutes during business hours.</p>
+    <div class="cta-btns reveal">
+      <button class="btn btn-gold" onclick="go('contact')">Send Inquiry</button>
+      <a href="https://wa.me/918046079676" target="_blank" rel="noopener" class="btn btn-wa">&#128172; WhatsApp Us</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     CONTACT PAGE
+============================================================ -->
+<div class="page" id="page-contact">
+  <div class="pbanner">
+    <div class="pbanner-watermark" aria-hidden="true">CONTACT</div>
+    <div class="pbanner-inner">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><span onclick="go('home')">Home</span><span class="sep">›</span><span>Contact</span></nav>
+      <h1>Get a <span>Free Quote</span></h1>
+      <p>We respond within 30 minutes during business hours. Free diagnosis, no obligation.</p>
+    </div>
+  </div>
+  <section class="section">
+    <div class="contact-grid">
+      <div class="form-card reveal-l">
+        <h3>Service Inquiry Form</h3>
+        <div class="fg-row">
+          <div class="fg"><label for="fname">Your Name *</label><input type="text" id="fname" placeholder="Full Name" required autocomplete="name"/></div>
+          <div class="fg"><label for="fphone">Phone / WhatsApp *</label><input type="tel" id="fphone" placeholder="+91 XXXXX XXXXX" required autocomplete="tel"/></div>
+        </div>
+        <div class="fg"><label for="femail">Email Address</label><input type="email" id="femail" placeholder="your@email.com" autocomplete="email"/></div>
+        <div class="fg">
+          <label for="fservice">Service Required *</label>
+          <select id="fservice" required>
+            <option value="">— Select a Service —</option>
+            <option>Servo Motor Drive Repair</option>
+            <option>VFD / AC Drive Repair</option>
+            <option>DC Drive Repair</option>
+            <option>Electronic PCB Repair</option>
+            <option>PLC Repair</option>
+            <option>HMI / Touch Panel Repair</option>
+            <option>CNC Controller Repair</option>
+            <option>Elevator Drive Repair</option>
+            <option>Excavator / Construction Equipment Repair</option>
+            <option>Machine Maintenance (AMC)</option>
+            <option>Control Panel Repair</option>
+            <option>Fire Alarm System</option>
+            <option>Industrial Monitor Repair</option>
+            <option>Power Supply / SMPS Repair</option>
+            <option>Encoder Repair</option>
+            <option>Shearing / Bending Machine Repair</option>
+            <option>Robot Spares Repair</option>
+            <option>Hydraulic Equipment Repair</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="fg-row">
+          <div class="fg"><label for="fbrand">Equipment Brand</label><input type="text" id="fbrand" placeholder="e.g. Siemens, Fanuc, ABB"/></div>
+          <div class="fg"><label for="fmodel">Model Number</label><input type="text" id="fmodel" placeholder="e.g. 6SL3210-1PE21"/></div>
+        </div>
+        <div class="fg"><label for="fdesc">Fault Description *</label><textarea id="fdesc" placeholder="Describe the problem, error codes, fault symptoms…" required></textarea></div>
+        <button class="btn btn-navy" onclick="submitForm()" style="width:100%;justify-content:center;font-size:14.5px;padding:14px">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          Submit Inquiry via WhatsApp
+        </button>
+        <p style="font-size:12px;color:var(--t3);margin-top:10px;text-align:center">Your inquiry will open in WhatsApp. We respond within 30 minutes.</p>
+      </div>
+      <div class="reveal-r">
+        <div class="cinfo-list">
+          <div class="cinfo-card">
+            <div class="cinfo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div><h4>Workshop Address</h4><p>Floor-1, 0-111, 42B, Hanuman Industrial Estate<br/>G D Ambekar Marg, Mumbai &ndash; 400031<br/>Maharashtra, India</p></div>
+          </div>
+          <div class="cinfo-card">
+            <div class="cinfo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.19 1.19 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+            <div><h4>Phone / WhatsApp</h4><a href="tel:+918046079676">+91 80460 79676</a><a href="https://wa.me/918046079676" target="_blank" rel="noopener" style="color:var(--gold);margin-top:4px">&#128172; Chat on WhatsApp</a></div>
+          </div>
+          <div class="cinfo-card">
+            <div class="cinfo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div><h4>Email</h4><a href="mailto:sohamtechnologiesmumbai@gmail.com">sohamtechnologiesmumbai@gmail.com</a></div>
+          </div>
+          <div class="cinfo-card">
+            <div class="cinfo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+            <div><h4>Working Hours</h4><p>Monday &ndash; Friday: 9:00 AM &ndash; 6:00 PM<br/>Saturday: 9:00 AM &ndash; 4:00 PM<br/>Sunday: Closed</p></div>
+          </div>
+          <div class="map-wrap">
+            <iframe title="SOHAM Technologies location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.5!2d72.8372!3d18.9824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDU4JzU2LjYiTiA3MsKwNTAnMTMuOSJF!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" width="100%" height="200" style="border:0;display:block" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAd
+Hx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3
+Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAb8BvwMBIgACEQED
+EQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABgcBBQgEAwL/xABSEAABAwMBAgYKDwYEBgMAAwAAAQID
+BAURBgchEhMxQVHRFBY3VGFxgZKhshUXIjI2UlVzdJGTorGz0iMzQnKDwTVi4fEkNEOCwvAlJlMn
+Y2T/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAQIDBAUG/8QALxEBAAICAQIFAwMEAgMAAAAAAAECAxEE
+ElEFFCExQRMVIjJSYSMzcfBCsSQ0gf/aAAwDAQACEQMRAD8AvEAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8SyMiY573I1rUy5VXCIgH7
+BUOtdsENFNLRaZiZUSNXElXL+7av+VP4vHyFduu+ttTPdLDPdKpFXOIEc1ieLAHUOU6RlOlDl/2D
+14vJSXryyO/UPYHXvel58936gOoMp0oMp0ocv+wOve9Lz57v1D2B173pefPd+oDqDKdKDKdKHL/s
+Dr3vS8+e79Q9gde96Xnz3fqA6gynSgynShy/7A6970vPnu/UPYHXvel58936gOoMp0oMp0ocv+wO
+ve9Lz57v1D2B173pefPd+oDqDKdKDKdKHL/sDr3vS8+e79Q9gde96Xnz3fqA6gynSgynShy/7A69
+70vPnu/UPYHXvel58936gOoMp0oMp0ocv+wOve9Lz57v1D2B173pefPd+oDqDKdKDKdKHL/sDr3v
+S8+e79Q9gde96Xnz3fqA6gynSgynShy/7A6970vPnu/UPYHXvel58936gOoMp0oMp0ocv+wOve9L
+z57v1D2B173pefPd+oDqDKdKDKdKHL/sFr3vS8+e79Q9gte96Xnz3fqA6gynSgynShy/7Ba970vP
+nu/UPYLXvel58936gOoMp0oMp0ocv+wWve9Lz57v1D2C173pefPd+oDqDKdKDKdKHL/sFr3vS8+e
+79Q9gte96Xnz3fqA6gynSgynShy/7Ba970vPnu/UPYLXvel58936gOoMp0oMp0ocv+wWve9Lz57v
+1D2C173pefPd+oDqDKdKDKdKHL/sFr3vS8+e79Q9gte96Xnz3fqA6hBy9HfdbaYkSWWe5UrW98NV
+0flz1lkaI2vQXCaOg1JHHS1D1RI6qP8AdPXocn8IFsg/LHNexrmORWu3oqLyn6AAAAAAAAAAAAAA
+AAAwrkTl5ii9q+uqi7XN+mrCr3UyORk0sW9Z3594ngT0k82tapXTmnHMpXo2urV4qBfi7vdO8iEY
+2JaO4FMupblGizTL/wAG12V4LPj+NebwAfbQOyWnomMuGpmsqatd8dMi5jhTw/GUtOCnhpo2xU8b
+ImN5GsbhPqQ+2MIp85ZGsYrnbkRMqB+8+H0DPjIFd9eOiqXRW2Br2sXCySLuXxIeDt+uXe9P9S9Z
+zTy8UTqZehTwzk2jfSszIyVn2/3Lven9PWO3+5970/pI85i7rfaeV2WZkZKz7f7n3vT+kdv9z73p
+/SPOYu59p5XZZmRkrPt/ufe9P6esdv8Ac+96f09Y83i7n2nldlmZGSs+3+5970/p6x2/3Pven9PW
+POYu59p5XZZmRkrPt/ufe9P6esdv9y73p/T1jzeLufaeV2WZkZKz7f7l3vT+nrHb/c+96f09ZPm8
+Xc+08rsszIyVn2/3Pven9PWO3+5d70/p6yPN4u59p5XZZmRkrPt/uXe9P6esdv8Ac+96f09Y85i7
+n2nldlmZGSs+3+5970/p6x2/3Pven9PWPN4u59p5XZZiuxyjJWfb9cl3LT0+PKTHTN9ivdGsnB4u
+Vi4kZnOPD4jTHnpedQwz8HNgr1XhvBgJyIZNnIxgYMgDGBgyAMYGDIAxgYMgDGBgyAMYGM8pkAfG
+opoamJ0VTEyWNyYVr2oqKVPtB2SQVEc1x0wxsM6IrpKJf3cic/A+Kvg5C3jCpkCkNk2uqmhrGaZv
+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
+2ZVWqniRceQnzmNkarXIjmryoqZQoS17M9VvVlTF2PS7uE16z+6xypjgm42da2vjtQwWW5y9lxSP
+WPL092xUzvzz70ImvzBLybX9KU9mrKe6W+JI6aqVWSxt3I2RN+U8aZ+o0WzK3+yOs6Bip7iFVmf4
+mpnqLN23cHtNYrkRX9lx8HwcufRkjmwig4yuudwcnuImNhYuOdy8JfQifWWifwT8LmbvTcQTbd3O
+6756D81pO05CCbbu53XfPQfmtMlX22Odzy1/1PXUmxCdjnc8tf8AU9dSbAAAAAAAAAAAAIHts7n9
+Z87F66E8IHts7n9Z87F66AerZD3PLP8AyyfmOJinIQ7ZD3PLP/LJ+Y4mKcgGSr9utwWGy2+3sdvq
+p1e9E52sTrcn1FoFCbaa/srVsdMm9lJTI1PA53ul/wDH6i1I9UwgAAOlYOrLN/hFF9HZ6qHKacvJ
+kkMOuNTwxNZHeahGMajWtTG5E8aFL1myNPHqr4TXX6VJ+JONiuoo6OuqLNVyIxlV+0gVVwnDTlTy
+p+BW1RNLUzyTzvV8sjlc9y8qqvSfhj3xva9j3Me1yK1zVwrVTkVBMfjodVVtqoK6aGero4JpoVzG
+97EVWr4DSa/1DHp7TlVNw/8Ai5WLHTtRd6vXdnxJylN020jVNNCkLbgj0amEdJGir9ZobteLhean
+sm6VUtRJjCK5dzfEnMZxjn5NNzs6v7NO6ngnncvYkycTMvQi8jvIv9zo6N0c0aOarXscmUVN6KnS
+clEis+t9RWaBtNR17khZubHKiORE8GS1qbnZMOibrcaW00EtbWPSOGJqqq5x5EKW2Y3GW67SpLhU
+fvalk0rk+LlUVE8iYTyEWvuqLxqBqMula6WNq5SNqcFn1IeG2XKttVWlXbqh9PPwVaj24zhfGIpq
+NGl17bvgnF9JafPYdu0rU/THeq0qS7anvd5p0p7ncZKiFHIvAemEynkMWnUt6s9MtPbLhLTwuVXu
+Y3g++xy7x0TrRpNdoS//AMu2/wAdJ66lo65+B94+iv8AwOcq28XGuuTLjWVUktazg8GZ2EcnBXLd
+2OZT31es9SVlNJTVV2nlglarZGOxvReVF3EdEmkv2Ef43cvorfWQ223pU7As+eaof6pVdnvNyssr
+5rXVuppJWIjnM50znfuU+l41Ddr02Nl1rpalsSqrEfj3Kr0YJ6Py2Lb2M6jirLMtknlxU0S/skX+
+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
+KruDhFVOnKkXsVdbbdctJS0NZFJMmaerY1VynDXG/wAqp9R7ZLFfZtNVPH0cqVt3uDHzMa391Gm/
+Kp0G21foOhpbG+o0/QSeyED2OYjHK5XYXfuX6zWJrX0ka68Vj9P3jWMDlVrayjSaHHxne4Xy5Uxq
+iinodJ6QpaREjq0njWJOZsiplPSqHo17YbhfLnZKqGjm/bsZHVIifusqmeF4sr9RuNpdJcZae0TW
+mjfVS0lWkqRxtzjgplPSgi0eg/el4dYx3LhagqIZKPi1TDFbnhc3InjPhtKytbppr1xF7Js4Xh3p
+gzpu/wCrK27wwXaxrS0rkXhS8Ffc7t3ObTX1lmvVj4FH/wA7TyJNBvx7pvQUn0vuRvZnQNki458S
+Pcv7Lh4yq+DJDtm+FuGqFkVeN9kno7PRlTVW2PUeq9Q2yW+259HS25yyOy1W8N/IiofW9QX/AEvq
+WtudioVraS4rwpIWtVeDJz8m/lyuSYrqOnY+0dJDXa71VRzKjaeaiibKqrhEVWt3mmppdSaEngiq
+1SssXGI1HJhWtaq7sLyt8RtbNpW5XKyXypvCcXcbumUY7dxaJyIvRzbvAahe22+UNJpmttj4YIZG
+NnqnNVOE1q7sryfUWj30JNtPc11ts7270W5QqnpJu392niIjtCttXV221Q0NO+dYa2JzkYnvWpnK
+ktblGIi8plM/jCFO7QpZLxf6uop6ZVpLQjYKqRi4V6OdvTybyx9I3qgu9DI21RPZT0jkharkwi4T
+m8hCLtT32xXO+0lBaXV9HdnI9snBVWsVcoufr9ButmFsu9lir7bcaZkcEb2vikb/ABucm/x4wn1m
+t4iaJY1zpy4V1ygvFgq0iuUEfBfGj8K5vMqf67jGl9VVdRZ71HeYkjuNsjV0uW8FXJhcKvhyinz1
+dDebJqpuobNRdmxzU/ETRNRV+vHNuQ0nsVf6iw3u4TUEzbjeZookgYzfHEi5VVToxkiNTXUjV2yt
+oKKLTFbDVsfco61zqpie+RJF358WVTyklvFSlh1ne52LwW1lpfMnNl7U3f3Ptf8AZ7botMzPtVG7
+2UiharHNeqq5yKirhPDhTxa4sd0vVBp+pho51qVj4mpaib2JhM59JfqpMjzXehfQ7MLFFToiTvqo
+3oq8nCcjiS6ap9bNvMa36qhkoOC5HtZwc5xu5EG0K21b9NUFPaqaSofTVMatjYmco1q7/wADzWTU
+Wsam70cFxsKwUkkmJZeCqcFMLv5enH1lN7r6aE9kTEbsLzKQbZan/wBNqPn5idPyrFREzu5iHbO6
+Gst+lp6etppIZlmlXgPTeuegpWfxmEIPRxNm0dpWFye5kuqsVPAu41dVMtfYaWmdv9jLdKkifFcs
+iIifiSi22S6xad0vBJQTtlp7mks7FbvjblN6+A+D9LXGCDWDY6Cd3HvVKVET94iyK73P1m9b1j3S
+/d/bdpNVWNthkZHW+xLeCsmMYxv5fITXR8WpY0qu2aeKVVVvE8XjcnPyIRbUMN/t9/tNytNrlqnw
+W1sLkxua7dlPGSPR941DcampbfbWtExjEWN3BVOEvPzmVvWu0JaADEAAAAPyq4A89wq4qGknq6l6
+NghYr3qvMibyj9m0UusNpVZf6mNzoKZyz+6/hc7KRp9SKvkPftp1ktY9umLO/jUVydmOj/iXOEjT
+p6V8iE72Z6X7VtMxU8rMVk68dUrz8JeRPIm4CXpyGQgAAAAAAAAAAAAAAMKhSO13Qc1JVv1LYGuS
+PhcOqhi3Oid/+jceno5S7z8uajkVFRFRdy5TlAp7QG1qJ8UVv1RIkcqbo6zHuXp/n6FLao62nroG
+z0c8c8Tt6PjcjkKz1rshornLJW6feyiqXrl0Dm/snL4Pi+QrOp0ZrWw1DmwUNezH/VoJXYXw+5VF
+9AHUGfGM+M5Z4nXqLhV1P9pUdZnitedOp/PqOsDqXPjGfGctcVrzp1P59R1jitedOp/PqOsDqX6z
+GN+cKct8Vrzp1P59R1ji9efG1P59R1gdR48Cjgp0KcucVrzp1P59R1jitedOp/PqOsDqNEROYcFO
+g5c4rXnTqfz6jrHF68+Nqjz6jrA6kxnl3jyKct8Xrz42qPPqOscVrzp1P59R1gdR48CmfIpy3xWv
+OnU/n1HWOK1506n8+o6yNDqPgoOCnQcucXrz42qPPqOscXrz42qPPqOskdSY8Yx/6hy3xevPjao8
++o6xxevPjao8+o6yB1HhM5wuekyiY5lOW+K1506n8+o6xxWvOnU/n1HWTodR4TPJ6BwU+L6Dlzit
+edOp/PqOscXrz42p/PqOsDqPgp0DHgU5c4rXnTqfz6jrHFa86dT+fUdZGh1JjwKMInMct8Xrz42p
+/PqOscXrz42qPPqOskdSKmUxgxhOhTlzitedOp/PqOscVrzp1P59R1gdR8HK5woRuExhTlzitedO
+p/PqOscXrzp1P59R1gdR4xzKMJ0KcucVrzp1P59R1jitedOp/PqOsDqX6xnxnLXFa86dT+fUdY4r
+XnTqfz6jrA6lz4xvOWuK1506n8+o6zCxa8Xci6n8+o6wOna6upqCB09bURU8TeV8jkanpKi2gbW4
+3RS27TEmVcitkrVTcif5E6fCQak0TrO/ztbPb65UVUzLXyrhvh90qqWhojZJRWiWOtvkjK6sYuWR
+on7Ji9OP4l8YGl2R6BmdUM1HfoVynuqSGXe5VXlkdn0F0tRMIYY1GtRGoiInMh+gAAAAAAAAAAAA
+AAAAAAAAADGBgyAMYGDIAxgYMgDGBgyAMYGDIAxgYMgDGBgyAMYGDIAxgYMgDGBgyAMYGDIAxgYM
+gDGBgyAMYGDIAxgYMgDGBgyAMYGDIAxgYMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//Z" alt="SOHAM Technologies" onclick="go('home')" role="button" tabindex="0" />
+      <p>Mumbai&rsquo;s leading industrial electronics repair company. Servo drives, PCBs, VFDs, PLCs, HMIs, CNC — repaired with precision since 2014.</p>
+      <div class="f-socials">
+        <a href="https://wa.me/918046079676" target="_blank" rel="noopener" class="fsoc" title="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+        <a href="tel:+918046079676" class="fsoc" title="Call">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.19 1.19 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        </a>
+        <a href="mailto:sohamtechnologiesmumbai@gmail.com" class="fsoc" title="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="fcol">
+      <h4>Services</h4>
+      <ul>
+        <li><a onclick="go('services')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>Servo Drive Repair</a></li>
+        <li><a onclick="go('services')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>VFD Repair</a></li>
+        <li><a onclick="go('services')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>PCB Repair</a></li>
+        <li><a onclick="go('services')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>PLC &amp; HMI Repair</a></li>
+        <li><a onclick="go('services')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>CNC Controller Repair</a></li>
+        <li><a onclick="go('services')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>Elevator Drive Repair</a></li>
+      </ul>
+    </div>
+    <div class="fcol">
+      <h4>Company</h4>
+      <ul>
+        <li><a onclick="go('about')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>About Us</a></li>
+        <li><a onclick="go('gallery')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>Gallery</a></li>
+        <li><a onclick="go('faq')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>FAQ</a></li>
+        <li><a onclick="go('contact')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>Get a Quote</a></li>
+      </ul>
+    </div>
+    <div class="fcol">
+      <h4>Contact</h4>
+      <div class="fci">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Floor-1, 42B Hanuman Industrial Estate, G D Ambekar Marg, Mumbai 400031</span>
+      </div>
+      <div class="fci">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.19 1.19 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        <a href="tel:+918046079676">+91 80460 79676</a>
+      </div>
+      <div class="fci">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span>Mon&ndash;Fri 9AM&ndash;6PM &middot; Sat 9AM&ndash;4PM</span>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 SOHAM Technologies. All rights reserved.</span>
+    <div>
+      <a href="https://wa.me/918046079676" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="tel:+918046079676">Call Us</a>
+      <a onclick="go('contact')" style="cursor:pointer">Get a Quote</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
